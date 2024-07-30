@@ -1,7 +1,7 @@
 from assertpy import assert_that
 
-from coding_exercise.application.splitter import Splitter
-from coding_exercise.domain.model.cable import Cable
+from src.coding_exercise.application.splitter import Splitter
+from src.coding_exercise.domain.model.cable import Cable
 
 
 def test_should_not_return_none_when_splitting_cable():

@@ -2,7 +2,7 @@ import sys
 
 from assertpy import assert_that
 
-from coding_exercise.domain.model.cable import Cable
+from src.coding_exercise.domain.model.cable import Cable
 
 
 def test_should_have_length():

@@ -1,9 +1,19 @@
-[build-system]
-# AVOID CHANGING REQUIRES: IT WILL BE UPDATED BY PYSCAFFOLD!
-requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5"]
-build-backend = "setuptools.build_meta"
+[tool.poetry]
+name = "python-coding-exercise"
+version = "0.1.0"
+description = ""
+authors = ["Aminul <aminul.babor@gmail.com>"]
+readme = "README.md"
 
-[tool.setuptools_scm]
-# For smarter version schemes and other configuration options,
-# check out https://github.com/pypa/setuptools_scm
-version_scheme = "no-guess-dev"
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+assertpy = "^1.1"
+setuptools = "^72.1.0"
+black = "^24.4.2"
+dlint = "^0.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

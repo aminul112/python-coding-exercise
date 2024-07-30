@@ -1,4 +1,4 @@
-from coding_exercise.domain.model.cable import Cable
+from src.coding_exercise.domain.model.cable import Cable
 
 
 class Splitter:
