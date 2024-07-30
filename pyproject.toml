@@ -12,6 +12,7 @@ assertpy = "^1.1"
 setuptools = "^72.1.0"
 black = "^24.4.2"
 dlint = "^0.15.0"
+structlog = "^24.4.0"
 
 
 [build-system]
